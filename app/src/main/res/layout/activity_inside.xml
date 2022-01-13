@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    >
+
+    <ImageView
+        android:id="@+id/imgMath"
+        android:layout_width="203dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/math"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvMath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Math  رياضيات"
+        android:textColor="@color/grey"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/imgMath"
+        app:layout_constraintTop_toTopOf="@+id/imgMath" />
+
+    <ImageView
+        android:id="@+id/imgPhysics"
+        android:layout_width="203dp"
+        android:layout_height="196dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/physics"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPhysics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="120dp"
+        android:text="Physics فيزياء"
+        android:textColor="@color/light_gray"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/imgPhysics"
+        app:layout_constraintTop_toTopOf="@+id/imgPhysics" />
+
+    <FrameLayout
+        android:id="@+id/Flfragment"
+        android:layout_width="388dp"
+        android:layout_height="457dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPhysics"
+        tools:layout="@layout/fragment_physics" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

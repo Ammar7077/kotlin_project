@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".PhysicsFragment">
+
+        <TextView
+            android:id="@+id/tvFragmentPhysics"
+            android:layout_width="231dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:text="Physics Teacher"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvFragmentMath3"
+            android:layout_width="111dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="160dp"
+            android:text="Name: "
+            android:textColor="@color/light_gray"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvFragmentMath4"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="18dp"
+            android:text="Education and Experience: "
+            android:textColor="@color/light_gray"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="222dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="48dp"
+            android:gravity="center"
+            android:text="Michael P. Brenner"
+            android:textColor="@color/light_gray"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/tvFragmentMath3"
+            app:layout_constraintTop_toBottomOf="@+id/tvFragmentPhysics" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="389dp"
+            android:layout_height="414dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:text="Michael P. Brenner is an American applied mathematician.  Brenner earned a bachelor's of science degree at the University of Pennsylvania and obtained a doctorate at the University of Chicago. Within the John A. Paulson School of Engineering and Applied Sciences at Harvard University, Brenner is the Michael F. Cronin Professor of Applied Mathematics and Applied Physics, while at the Department of Physics, he holds the Glover Professorship.[1][2]  References"
+            android:textColor="@color/light_gray"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvFragmentMath4" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

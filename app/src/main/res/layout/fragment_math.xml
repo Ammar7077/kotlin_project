@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".PhysicsFragment">
+
+        <TextView
+            android:id="@+id/tvFragmentMath"
+            android:layout_width="231dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:text="Math Teacher"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvFragmentMath3"
+            android:layout_width="111dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="148dp"
+            android:text="Name: "
+            android:textColor="@color/light_gray"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvFragmentMath4"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="18dp"
+            android:text="Education and Experience: "
+            android:textColor="@color/light_gray"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="222dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="44dp"
+            android:text="Martha Louise Minow"
+            android:textColor="@color/light_gray"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/tvFragmentMath3"
+            app:layout_constraintTop_toBottomOf="@+id/tvFragmentMath" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="389dp"
+            android:layout_height="414dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:text="Martha Louise Minow is an American legal scholar and the 300th Anniversary University Professor at Harvard University. She served as the Dean of Harvard Law School between 2009 and 2017 and has taught at the Law School since 1981 Besides her many scholarly articles published in journals of law, history, and philosophy, her books include Saving the News: Why The Constitution Calls for Government Action to Preserve the Freedom of Speech (2021); When Should Law Forgive? (2019); The First Global Prosecutor: Promise and Constraints (co-edited, 2015); In Brown’s Wake: Legacies of America’s Constitutional Landmark (2010)"
+            android:textColor="@color/light_gray"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvFragmentMath4" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
